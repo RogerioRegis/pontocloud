@@ -60,6 +60,7 @@ dependencies {
     // UI Components
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.splashscreen)
+    implementation(libs.google.material)
 
     // CameraX
     implementation(libs.androidx.camera.camera2)
