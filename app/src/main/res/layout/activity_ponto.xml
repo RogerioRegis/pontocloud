@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary"
-        app:titleTextColor="@android:color/white"
-        app:title="@string/app_name" />
+        app:navigationIcon="@drawable/ic_launcher_w"
+        app:title="Ponto Cloud"
+        app:titleTextColor="@color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -99,17 +100,17 @@
             android:id="@+id/btnFaceRecognition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🤖 Bater Ponto por Reconhecimento Facial"
+            android:text="Bater Ponto por Reconhecimento Facial"
             android:textSize="14sp"
             android:layout_marginBottom="8dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnCapturarSelfie"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capturar Selfie"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:text="🤳 Capturar Selfie" />
 
         <TextView
             android:id="@+id/tvSelfieStatus"

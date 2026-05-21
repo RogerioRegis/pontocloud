@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">App Ponto Cloud</string>
+
+    <!-- Legacy Compatibility -->
+    <string name="label_empresa">Empresa</string>
+    <string name="label_matricula">Matrícula</string>
+    <string name="label_senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="link_esqueci_senha">Esqueci minha senha</string>
+    <string name="btn_bater_ponto">Bater Ponto</string>
+    <string name="title_recuperar_senha">Recuperar Senha</string>
+    <string name="hint_recuperar_senha">Digite seu e-mail ou matrícula</string>
+    <string name="label_email">E-mail</string>
+    <string name="btn_recuperar_senha">Recuperar</string>
 </resources>
